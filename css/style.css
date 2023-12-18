@@ -1,3 +1,45 @@
+.blogs-column{
+    margin-top: -1rem;
+    height:300px;
+  }
+  .blogs-container{
+    display:grid;
+    width:100%;
+    grid-template-columns:1.2fr 1.5fr;
+    grid-template-rows:1fr 2fr 1fr;
+    gap:10px;
+  }
+  .blogs-container-image
+  {
+    grid-row:span 3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .blogs-conatiner-category
+  {
+    height:100%;
+    display:flex;
+    align-items:center;
+  }
+  .blogs-container-author-and-link
+  {
+    display:flex;
+  }
+  .blogs-author-name
+  {
+    font-size:0.8rem;
+    width:70%;
+  }
+  .blogs-link
+  {
+    font-size:0.8rem;
+    text-align:right;
+  }
+  .item
+  {
+    margin:10px;
+  }
 .explore_more{
     margin-top: 1rem;
 }
@@ -574,3 +616,6 @@
       height: 10%; */
     }
   }
+
+  /*just checking*/
+  
